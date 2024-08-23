@@ -1,0 +1,250 @@
+/*main container*/
+.main-container {
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    height: auto;
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+}
+
+.nav-container {
+    background-color: transparent;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+
+li {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    transform: 0.3s ease;
+    
+}
+
+li:hover{
+    color: grey;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.head-container {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*location and search bar container*/
+
+.search-container {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 100%; 
+    max-width: 600px; 
+    background-color: white;
+}
+
+
+.location {
+    border: none;
+    border-radius: 4px 0 0 4px; 
+    padding: 8px 12px;
+    font-size: 16px;
+    flex: 1; 
+    background: url('path-to-your-location-icon.png') no-repeat right center;
+    background-size: 20px 20px; 
+}
+
+
+.search-input {
+    border: none;
+    border-radius: 0 4px 4px 0; 
+    padding: 8px 12px;
+    font-size: 16px;
+    flex: 2; 
+}
+
+
+.search-bar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*end*/
+
+
+.card-container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom: 80px;
+}
+
+
+.card-item {
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 50%;
+    height: 170px;
+    
+}
+
+.card-item:hover{
+    transform: scale(1.05); /* Slightly enlarge the entire cart item */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    cursor: pointer;
+}
+.card-img {
+    width: 100%;
+    height: 180px;
+    display: block;
+    transition: transform 0.3s ease;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+/*
+.card-img:hover{
+    transform: scale(1.1);  Zoom the product image a bit more 
+}
+
+*/
+
+
+.card-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.card-para {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+
+/*collection-card-container*/
+
+.collection-card-container{
+   
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.head-card-container h1 {
+    margin-bottom: 3px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head-card-container p {
+    margin-top: 0; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*collection card list */
+
+.head-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collection-cardlist-container{
+    display: flex;
+    
+
+}
+
+.collection-cardlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 1px;
+}
+
+.card-para{
+    margin: 0px;
+    gap: 0px;
+
+}
+
+.card-h6{
+    margin:0px;
+    gap: 0px;
+    margin-bottom: -2px;
+}
+
+.card-head-svg{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.collection-card-bg-1{
+    background-image: url("https://b.zmtcdn.com/data/collections/7771cf3a18e1da2916794d3998260c69_1709812319.png?output-format=webp");
+    background-size: cover;
+    height: 170px;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+
+.collection-card-bg-2{
+    background-image: url("https://b.zmtcdn.com/data/collections/2748683d9ae0c00e80ba4701e2545f66_1709815454.png?output-format=webp");
+    background-size: cover;
+    height: 170px;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.collection-card-bg-3{
+     background-image: url("https://b.zmtcdn.com/data/collections/fbd237478a5d3b6ea08de83c30230cdd_1709881769.png?output-format=webp");
+    background-size: cover;
+    height: 170px;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.collection-card-bg-4{
+     background-image: url("https://b.zmtcdn.com/data/collections/ce8f94a179d859d01f94c441d67ef5ad_1706256872.png?output-format=webp");
+    background-size: cover;
+    height: 170px;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
