@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div>
+        <div class="main-container">
+            <div class="nav-container"> 
+                <nav>
+                    <ul>
+                        <li>Investor</li>
+                        <li>Add resturant</li>
+                        <li>Login</li>
+                        <li>SignUp</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="head-container">
+                <h1>Zomato</h1>
+                <p>Discover the best food &amp; drinks in Chennai</p>
+            </div>
+            <div class="search-container">
+                <div class="search-bar">
+                    <select id="location" name="location" class="location">
+                        <option value="Chennai">Chennai</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kolkata">Kolkata</option>
+                    </select>
+                    <input type="text" placeholder="Search for restaurant" class="search-input"/>
+                </div>
+            </div>   
+        </div>
+        <div class="card-container">
+            <div class="card-item">
+                <div>
+                    <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&amp;fit=around|402:360&amp;crop=402:360;*,*" class="card-img">
+                </div>
+                <div>
+                    <h1 class="card-head">Order Online</h1>
+                    <p class="card-para">Stay home and order to y....</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <div>
+                    <img src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&amp;fit=around|402:360&amp;crop=402:360;*,*" class="card-img">
+                </div>
+                <div>
+                    <h1 class="card-head">Dining</h1>
+                    <p class="card-para">View the city's favourite d...</p>
+                </div>
+            </div>
+            <div class="card-item">
+                <div>
+                    <img src="https://b.zmtcdn.com/data/o2_assets/371de657644f1b5818fcb5d83387c8c91722851940.png?output-format=webp&ampfit=around|402:360&ampcrop=402:360;*,*" class="card-img">
+                </div>
+                <div>
+                    <h1 class="card-head">Live Events</h1>
+                    <p class="card-para">Discover India's best event...</p>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="collection-card-container">
+                    <div class="head-card-container">
+                        <div>
+                            <h1>Collection</h1>
+                            <p>Explore curated lists of top resturant, cafes, pubs and bars in Chennai, based on trends </p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <span>Collection in Chennai</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection-cardlist-container ">
+                        <div class="collection-cardlist collection-card-bg-1">
+                            <p class="card-para">Newly Opened....</p>
+                            <div class="card-head-svg">
+                                <h6 class="card-h6">20 Places</h6>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" 
+                                    viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" 
+                                    ><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="collection-cardlist collection-card-bg-2">
+                            <p class="card-para">Newly Opened....</p>
+                            <h6 class="card-h6">20 Places</h6>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" 
+                                 viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" 
+                                 ><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path>
+                            </svg>
+                        </div> 
+                        <div class="collection-cardlist collection-card-bg-3">
+                            <p class="card-para">Newly Opened....</p>
+                            <h6 class="card-h6">20 Places</h6>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" 
+                                 viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" 
+                                 ><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path>
+                            </svg>
+                        </div>
+                        <div class="collection-cardlist collection-card-bg-4">
+                            <p class="card-para">Nwely Opened....</p>
+                            <h6 class="card-h6">20 Places</h6>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" width="10" height="10" 
+                                 viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" 
+                                 ><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path>
+                            </svg>
+                        </div>
+                    </div>
+            </div>
+        </section> 
+    </div>
+
+
+
+
+
+    <!--contact section start-->
+    <section>
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
